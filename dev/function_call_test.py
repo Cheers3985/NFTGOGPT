@@ -10,7 +10,7 @@ from langchain.agents import AgentType
 from nft_tools import NFT_info
 from langchain.chat_models import ChatOpenAI
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ["SERPAPI_API_KEY"] = '''2fe60ccdc0e2687d086f79ba1a82cbc9f3c55f35bb2f77c0e983edf820f416b9'''
 
 nft = NFT_info('cpu')

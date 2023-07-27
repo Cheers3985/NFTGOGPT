@@ -1,5 +1,5 @@
 import requests
-X_API_KEY = "434cacfe-adc9-4d35-974a-79bc06905319"
+X_API_KEY = ""
 ## NFT
 def get_nft_info(contract_address, token_id):
     """

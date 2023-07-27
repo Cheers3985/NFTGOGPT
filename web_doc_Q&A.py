@@ -9,7 +9,7 @@ text_splitter = RecursiveCharacterTextSplitter.split_text()
 text_splitter = RecursiveCharacterTextSplitter.split_documents()
 # WebBaseLoader 加载网页可视化的文字内容。
 # 构建自己的标签系统来进行打标签处理操作
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ["OPENAI_PROXY"] = "http://127.0.0.1:10809"
 prompt_template ="I would like you to create an article summary. I will provide you with an article on a specific topic,\
 and you will summarize the main points of the article. The summary should be concise and accurately \

@@ -16,7 +16,7 @@ from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain.llms.openai import OpenAI
 # 设置open_ai_key
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ["OPENAI_PROXY"] = "http://127.0.0.1:10809"
 
 # system prompt prefix

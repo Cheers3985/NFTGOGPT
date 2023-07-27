@@ -3,7 +3,7 @@ from langchain.agents import load_tools, initialize_agent
 from langchain.agents import AgentType
 from langchain.tools import AIPluginTool
 tool = AIPluginTool.from_plugin_url("https://www.klarna.com/.well-known/ai-plugin.json")
-openai.api_key = "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"
+openai.api_key = ""
 llm = OpenAIChat(model_name="gpt-3.5-turbo")
 chain_new = APIChain.from_llm_and_api_docs(llm,open_meteo_docs.OPEN_METEO_DOCS,verbose=True)
 

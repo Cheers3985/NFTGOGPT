@@ -5,7 +5,7 @@ from langchain.utilities import ApifyWrapper
 
 # 初始化 Apify API token and OpenAI API key
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 os.environ["APIFY_API_TOKEN"] = "apify_api_NePAHqLJMilGNnnDq73iVoiBQM5BGD2Quiq7"
 apify = ApifyWrapper()
 

@@ -13,7 +13,7 @@ def get_nft_by_contract(address="",token_id="",message=""):
     url = f"https://data-api.nftgo.io/eth/v1/nft/{address}/{token_id}/{message}"
     headers = {
         "accept": "application/json",
-        "X-API-KEY": "434cacfe-adc9-4d35-974a-79bc06905319"
+        "X-API-KEY": ""
     }
     response = requests.get(url, headers=headers)
     return response.text

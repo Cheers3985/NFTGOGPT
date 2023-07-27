@@ -11,7 +11,7 @@ def prompts(name, description):
 class NFT_info:
     def __init__(self, device):
         print(f"Using NFT_info_api to {device}")
-        self.api_key = "434cacfe-adc9-4d35-974a-79bc06905319"
+        self.api_key = ""
 
     # 获取address信息
     @prompts(name="Get_nft_collection_address_by_name",
@@ -100,7 +100,7 @@ class NFT_info:
 class Collection:
     def __init__(self, device):
         print(f"Using NFT_info_api to {device}")
-        self.api_key = "434cacfe-adc9-4d35-974a-79bc06905319"
+        self.api_key = ""
         # 获取address信息
     @prompts(name="Get_address's_portfolio",
              description="useful when you want to learn about Retrieve the portfolio of an address, including all NFTs owned."

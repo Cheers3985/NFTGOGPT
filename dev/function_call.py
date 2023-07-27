@@ -20,7 +20,7 @@ from langchain.llms.openai import OpenAI
 from langchain.chat_models import ChatOpenAI
 
 import openai
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-0613")
 tools = []
 # 导入的类

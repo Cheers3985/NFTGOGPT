@@ -4,7 +4,7 @@ from langchain.chains import APIChain
 from langchain.prompts.prompt import PromptTemplate
 from langchain.chains.api import open_meteo_docs
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 llm = OpenAIChat(model_name="gpt-3.5-turbo")
 chain_new = APIChain.from_llm_and_api_docs(llm,open_meteo_docs.OPEN_METEO_DOCS,verbose=True)
 
